@@ -1,0 +1,17 @@
+<templateSet group="ngdocs">
+  <template name="ngcomment" value="/**&#10; * @ngdoc $type$&#10; * @name $module$.$type$:$name$&#10; * @module $module$&#10; * @kind $type$&#10; *&#10; * @description&#10; * $description$&#10; *&#10; * @param {$paramType$} $paramName$ $paramDescription$&#10; *&#10; * @return {$returnType$} $returnName$ $returnDescription$&#10; *&#10; */" description="Creates an NGDoc comment" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
+    <variable name="module" expression="" defaultValue="&quot;module&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <variable name="paramType" expression="" defaultValue="&quot;paramType&quot;" alwaysStopAt="true" />
+    <variable name="paramName" expression="" defaultValue="&quot;paramName&quot;" alwaysStopAt="true" />
+    <variable name="paramDescription" expression="" defaultValue="&quot;paramDescription&quot;" alwaysStopAt="true" />
+    <variable name="returnType" expression="" defaultValue="&quot;returnType&quot;" alwaysStopAt="true" />
+    <variable name="returnName" expression="" defaultValue="&quot;returnName&quot;" alwaysStopAt="true" />
+    <variable name="returnDescription" expression="" defaultValue="&quot;returnDescription&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

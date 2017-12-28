@@ -1,0 +1,25 @@
+<templateSet group="Angular2">
+  <template name="ng2-module" value="import {NgModule} from &quot;@angular/core&quot;;&#10;&#10;@NgModule({&#10;  imports: [],&#10;  declarations: [],&#10;  exports: []&#10;})&#10;export class $NAME$ {}&#10;$END$&#10;" description="Angular2 module" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ng2-component" value="import { Component, OnInit } from '@angular/core';&#10;&#10;@Component({&#10;    selector: '$SELECTOR$',&#10;    templateUrl: '$NAME$.component.html'&#10;})&#10;export class $COMPONENT_NAME$Component implements OnInit {&#10;    constructor() { }&#10;&#10;    ngOnInit() { }&#10;    $END$&#10;}" description="Angular2 component" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTOR" expression="" defaultValue="&quot;selector&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="COMPONENT_NAME" expression="capitalize(String)" defaultValue="&quot;ComponentName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ng2-component-test" value="import {ComponentFixture, TestBed} from '@angular/core/testing';&#10;import {Http} from '@angular/http';&#10;import {TranslateLoader, TranslateModule} from '@ngx-translate/core';&#10;import {HttpLoaderFactoryStub, HttpStub} from '../../shared/test-helpers';&#10;&#10;let fixture: ComponentFixture&lt;$COMPONENT$&gt;;&#10;let comp: $COMPONENT$;&#10;&#10;describe('$COMPONENT$', () =&gt; {&#10;  beforeEach(() =&gt; {&#10;    TestBed.configureTestingModule({&#10;      imports: [&#10;        TranslateModule.forRoot({&#10;          loader: {provide: TranslateLoader, useFactory: HttpLoaderFactoryStub, deps: [Http]}&#10;        })&#10;      ],&#10;      declarations: [$COMPONENT$],&#10;      providers: [&#10;        {provide: Http, useClass: HttpStub}&#10;      ]&#10;    });&#10;&#10;    fixture = TestBed.createComponent($COMPONENT$);&#10;    comp = fixture.componentInstance;&#10;  });&#10;&#10;  fit('should work', () =&gt; {&#10;    expect(fixture.componentInstance instanceof $COMPONENT$)&#10;      .toBe(true, 'should create variable');&#10;  });&#10;});&#10;" description="Component test file" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
