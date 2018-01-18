@@ -479,7 +479,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="f4d370" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -502,7 +502,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="f4d370" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
