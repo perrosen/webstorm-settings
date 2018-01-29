@@ -1280,12 +1280,12 @@
     </option>
     <option name="REGEXP.BRACES">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="REGEXP.BRACKETS">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="REGEXP.CHAR_CLASS">
@@ -1316,7 +1316,7 @@
     </option>
     <option name="REGEXP.PARENTHS">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
@@ -1763,7 +1763,7 @@
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="f4d370" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="XML_COMMENT">
@@ -1831,12 +1831,12 @@
     </option>
     <option name="YAML_SCALAR_DSTRING">
       <value>
-        <option name="FOREGROUND" value="f4d370" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="f4d370" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
@@ -1846,7 +1846,7 @@
     </option>
     <option name="YAML_SCALAR_STRING">
       <value>
-        <option name="FOREGROUND" value="f4d370" />
+        <option name="FOREGROUND" value="f4ab00" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
